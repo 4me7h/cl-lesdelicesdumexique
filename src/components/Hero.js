@@ -20,7 +20,7 @@ const Hero = () => {
                             <div className='hero__content__header'>
                                 <Zoom triggerOnce cascade>
                                     <p className='text--small text--white'>Cuisine mexicaine à Salaberry-de-Valleyfield.</p>
-                                    <h1 className="text--title text--white">Cuisine Mexicaine</h1>
+                                    <h1 className="text--title text--white">Les Délices du Mexique</h1>
                                     <h2 className="text--subtitle text--white">La meilleure saveur à votre portée <span className='    '><br />Découvrez les saveurs authentiques</span></h2>
                                     <p className='text--body text--white'>Notre restaurant à Salaberry-de-Valleyfield
                                     offre une cuisine mexicaine authentique, avec des plats préparés selon les traditions et les recettes familiales.</p>

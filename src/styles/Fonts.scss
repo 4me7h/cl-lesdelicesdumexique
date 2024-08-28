@@ -103,6 +103,7 @@ span {
         letter-spacing: 0.05rem;
         font-weight: $fw-5;
         margin-bottom: 1rem;
+        font-family: $ff-s;
         @include media('xs') {
             font-size: $fs-lg;
         }

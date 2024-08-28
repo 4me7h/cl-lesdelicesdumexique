@@ -10,47 +10,36 @@ import { Fade } from 'react-awesome-reveal';
 const imagePaths = [  
   require('../images/img-02.jpg'),
   require('../images/img-01.jpg'),
-  require('../images/img-04.jpg'),
-  require('../images/img-08.webp'),
-  require('../images/img-06.jpg'),
-  require('../images/img-11.jpg'),
   require('../images/img-03.jpg'),
   require('../images/img-12.jpg'),
   require('../images/img-05.jpg'),
-  require('../images/img-13.jpg'),
+  require('../images/img-24.jpg'),
   require('../images/img-15.jpg'),
-  require('../images/img-14.jpg'),
-  require('../images/img-07.jpg'),
-  require('../images/img-09.jpg'),
-  require('../images/img-16.jpg'),
+  require('../images/img-27.jpg'),
+  require('../images/img-10.jpg'),
+  require('../images/img-25.jpg'),
 ];
 
 export default function About() {
   return (
     <section className="about">
-      <div className='polygon'>
-        <div className='polygon__top--left'></div>
-      </div>
       <div className="about__header">
         <Container>
           <Row>
             <Col>
               <Fade cascade triggerOnce direction="left">
                 <div className='about__header__content'>
-                  <h3 className="text--subtitle text-center text-uppercase"><em>¡Ahora más diversión!</em></h3>
+                  <h3 className="text--subtitle text-center text-uppercase text--ff-s"><em>À propos des délices du Mexique</em></h3>
                 </div>  
                 <div className="about__header__content">
                   <p className='text--body text--white text-center'>
-                    Descubre los mejores paquetes de Internet, Televisión y Telefonía con Megacable, líder en servicios de telecomunicaciones en México. En Tuxtla Gutiérrez, ofrecemos soluciones personalizadas para cada hogar y negocio. 
+                    Notre histoire est enracinée dans les traditions familiales de Chiapas, au Mexique. Depuis des générations, nous perpétuons l'art de la cuisine mexicaine authentique, en utilisant des recettes transmises de mère en enfants. Aujourd'hui, nous avons apporté ces saveurs uniques à Salaberry, pour que vous puissiez découvrir la richesse et la chaleur de notre culture à travers chaque plat que nous servons.
                   </p>
                 </div>
               </Fade>
             </Col>
           </Row>
         </Container>
-      </div>
-      <div className='polygon'>
-        <div className='polygon__bottom--right'></div>
       </div>
       <Gridimg 
           imagePaths = {imagePaths}
@@ -61,7 +50,7 @@ export default function About() {
             <div className="about__content">
               <Fade triggerOnce>
               <p className='text--body'>
-                Con velocidades de Internet ultrarrápidas y acceso a las aplicaciones de TV más populares como Netflix, HBO Max y Disney+, Megacable transforma tu experiencia de entretenimiento. Además, ofrecemos soluciones de conectividad diseñadas para mejorar la productividad y profesionalismo en tu oficina, asegurando que tanto el trabajo como el ocio se realicen con la máxima eficiencia. ¡Contáctanos hoy y descubre cómo podemos potenciar tu hogar y negocio con una conexión sin igual!
+                Enracinée dans les traditions familiales de Chiapas, au Mexique, notre cuisine apporte les saveurs authentiques du Mexique directement à Salaberry. Chaque plat est un hommage à nos recettes ancestrales, transmises de génération en génération.
               </p>
               </Fade>
             </div>
