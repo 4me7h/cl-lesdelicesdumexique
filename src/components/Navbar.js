@@ -32,7 +32,7 @@ const Navbar = () => {
                                 <ul className={`navBar__nav ${visible ? 'visible' : ''}`}>
                                     <li className="navBar__nav__item"><Link href="#" to="hero" smooth={true} duration={500}  activeClassName="active">Accueil</Link></li>
                                     <li className="navBar__nav__item"><Link href="#" to="about" smooth={true} duration={500}>À propos</Link></li>
-                                    <li className="navBar__nav__item"><Link href="#" to="products" smooth={true} duration={500}>Menu</Link></li>
+                                    <li className="navBar__nav__item"><Link href="#" to="menufood" smooth={true} duration={500}>Menu</Link></li>
                                     <li className="navBar__nav__item"><Link href="#" to="contact" smooth={true} duration={500}>Contact</Link></li>
                                 </ul>
                             </div>
