@@ -1,11 +1,8 @@
-import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Gridimg from './Gridimg';
-import imgAbout01 from '../images/img-21.jpg'
-
 import { Fade } from 'react-awesome-reveal';
 
 const imagePaths = [  
@@ -23,7 +20,8 @@ const imagePaths = [
   require('../images/img-38.jpg'),
 ];
 
-export default function About() {
+const About = () => {
+
   return (
     <section className="about">
       <div className="about__header">
@@ -41,10 +39,7 @@ export default function About() {
                         Notre histoire est enracinée dans les traditions familiales de Chiapas, au Mexique. Depuis des générations, nous perpétuons l'art de la cuisine mexicaine authentique, en utilisant des recettes transmises de mère en enfants. Aujourd'hui, nous avons apporté ces saveurs uniques à Salaberry, pour que vous puissiez découvrir la richesse et la chaleur de notre culture à travers chaque plat que nous servons.
                       </p>
                     </div>
-                    </div>
-                    <div className="about__header__container__column">
-                      <img className="about__header__img" src={imgAbout01} alt="le cuisine mexicaine" />
-                    </div>
+                  </div>
                 </div>
                 
               </Fade>
@@ -71,3 +66,5 @@ export default function About() {
     </section>
   )
 }
+
+export default About;

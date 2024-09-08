@@ -6,7 +6,8 @@ import Hero from './components/Hero';
 // import Services from './components/Services';
 // import Products from './components/Products';
 // import Team from './components/Team';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
+import MenuFood from './components/MenuFood';
 
 import { Element } from 'react-scroll';
 import { ParallaxProvider } from 'react-scroll-parallax';
@@ -19,17 +20,15 @@ function App() {
       <Element name="hero">
         <Hero />
       </Element>
-      {/* <Element name="products">
-        <Products />
-      </Element>
-      */}
       <Element name="about">
         <About />
+      </Element> 
+      <Element name="menufood">
+        <MenuFood />
       </Element>
-      {/*
       <Element name="contact">
         <Contact />
-      </Element> */}
+      </Element> 
       <Footer />
     </>
     </ParallaxProvider>

@@ -1,0 +1,18 @@
+.menufood {
+    padding: 2rem 0;
+
+    &__list {
+        @include reset-list;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 100%;
+        margin: 0 auto;
+        @include media('md') {
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
