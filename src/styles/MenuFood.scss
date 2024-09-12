@@ -16,3 +16,12 @@
         }
     }
 }
+
+.menufood__item {
+    &.menufood__item--extra {
+        &.item-menu {
+            background-color: yellow;
+        }
+    }
+}
+    

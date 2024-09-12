@@ -20,133 +20,133 @@ const MenuFood = () => {
                                 <ItemMenu 
                                     title = "Nachos"
                                     subtitle = "Coahuila, México"
-                                    text = " Tortilla frita con frijoles, queso amarillo americano, queso blanco, Cheddar, jalapeño"
+                                    text = "Tortilla frite avec des haricots, fromage américain jaune, fromage blanc, cheddar, jalapeño"
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Chilaquiles"
                                     subtitle = "Náhuatl, México precolombino"
-                                    text = "Tortilla frita bañada de salsa de su elección, verde o roja con queso, crema"
+                                    text = "Tortilla frite nappée de sauce de votre choix, verte ou rouge, avec du fromage et de la crème"
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Enchiladas"
                                     subtitle = "Náhuatl, México precolombino"
-                                    text = "Tortillas rellenas de queso glaseada de salsa verde o roja, cebolla morada, y pechuga de pollo, queso, crema."
+                                    text = "Tortillas farcies de fromage nappées de sauce verte ou rouge, avec oignons rouges, poitrine de poulet, fromage et crème."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
-                                    title = "Burro"
+                                    title = "Burrito"
                                     subtitle = "Chihuahua, México"
-                                    text = "Tortilla de harina, untada de frijol, con queso, poco de gallo y cebolla. Opción de proteína"
+                                    text = "Tortilla de farine, tartinée de haricots, avec du fromage, un peu de pico de gallo et des oignons. Option de protéine."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Tostadas"
                                     subtitle = "Oaxaca, México"
-                                    text = "Tortilla frita con frijol untado, pollo a la plancha lechuga con queso y crema."
+                                    text = "Tortilla frite avec des haricots tartinés, poulet grillé, laitue avec du fromage et de la crème."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Papas fritas"
                                     subtitle = "Putin (Québec)"
-                                    text = "Papas fritas bañadas de gravy y queso."
+                                    text = "Frites nappées de sauce gravy et de fromage."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Papas fritas"
                                     subtitle = "Estilo mexicano (Chiapas)"
-                                    text = "Papas fritas con aderezo de la casa."
+                                    text = "Frites avec la sauce maison."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
-                                    title = "Alas de pollo"
+                                    title = "Wings"
                                     subtitle = "Nueva York"
-                                    text = "BBQ, Buffalo, Mango Habanero"
+                                    text = "BBQ, Buffalo, Mangue Habanero"
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Tacos"
                                     subtitle = "México, Prehispánico"
-                                    text = "Tortilla de Maíz suave con proteína de su elección, cebolla y cilantro."
+                                    text = "Tortilla de maïs souple avec la protéine de votre choix, oignons et coriandre"
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Quesadilla"
                                     subtitle = "Veracruz, México"
-                                    text = "Tortilla de harina suave con queso y proteína al gusto, cebolla y cilantro."
+                                    text = "Tortilla de farine souple avec fromage et protéine au choix, oignons et coriandre."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Empanadas"
                                     subtitle = "Chiapas, México"
-                                    text = "Tortilla de maíz nixtamalizada rellena de queso, pollo o queso con champiñones, bañada en salsa roja de tomate con repollo, zanahoria y chile en curtido, glaseado de crema con queso."
+                                    text = "Tortilla de maïs nixtamalisée farcie de fromage, poulet ou fromage avec champignons, nappée de sauce rouge à base de tomate avec chou, carottes et piments en pickles, glacée de crème et de fromage."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Tacos dorados"
                                     subtitle = "Sinaloa, México"
-                                    text = "Proteína envuelta con una tortilla, frita, bañada en salsa roja, con repollo, zanahoria y chiles en curtido, queso y crema."
+                                    text = "Protéine enveloppée dans une tortilla, frite, nappée de sauce rouge, avec chou, carottes et piments en pickles, fromage et crème."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Grilladas"
                                     subtitle = "Salaberry de Villeyfield"
-                                    text = "A la plancha sazonadas con especias de la casa."
+                                    text = "Grillées et assaisonnées avec les épices maison."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Grilladas de la casa"
                                     subtitle = "México, Canadá"
-                                    text = "Sazonado estilo mexicano"
+                                    text = "Assaisonné à la manière mexicaine."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Sandwich"
                                     subtitle = "Salaberry de Villeyfield"
-                                    text = "Clásico Pan blanco con tomate, cebolla, mostaza y Grilladas."
+                                    text = "Pain blanc classique avec tomate, oignon, moutarde et grillé."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Boneless"
                                     subtitle = "New York"
-                                    text = " Trocitos de pechuga de pollo, sin hueso, empanizados y pueden ser aderezados o bañadosen una deliciosa salsa de su elección (Mango Habanero, Buffalo, BBQ)"
+                                    text = "Petits morceaux de poitrine de poulet, sans os, panés et pouvant être assaisonnés ou nappés d'une délicieuse sauce de votre choix (Mangue Habanero, Buffalo, BBQ)."
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Postres"
                                     subtitle = "México"
-                                    text = "Ensalada de Manzana,Arroz con leche, Gelatina mosaico, Champirrado"
+                                    text = "Salade de pommes, riz au lait, gelée mosaïque, champurrado."
                                 />
                             </li>
-                            <li className="menufood__item">
+                            <li className="menufood__item menufood__item--extra">
                                 <ItemMenu 
                                     title = "Proteínas"
                                     subtitle = "México"
-                                    text = "Pollo, Res, Grilladas, Chorizo (puerco), Campechano, Cochito (Puerco), Barbacoa (Res), Champiñones"
+                                    text = "Poulet, bœuf, grillé, chorizo (porc), campechano, cochito (porc), barbacoa (bœuf), champignons."
                                 />
                             </li>
-                            <li className="menufood__item">
+                            <li className="menufood__item menufood__item--extra">
                                 <ItemMenu 
                                     title = "Extras"
                                     subtitle = "México"
-                                    text = "Pico de gallo, Guacamole, Queso, Crema, Proteína, Grilladas"
+                                    text = "Pico de gallo, Guacamole, Fromage, Crème, Protéine, Grillé."
                                 />
                             </li>
                         </ul>
