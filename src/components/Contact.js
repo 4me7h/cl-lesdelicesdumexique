@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Fade } from 'react-awesome-reveal';
 
-import imgmexico from '../images/img-41.jpg'
 const Contact = () => {
     return(
         <section className='contact'>
@@ -15,17 +14,21 @@ const Contact = () => {
                             <div className="headercontent__header">
                                 <Fade cascade triggerOnce direction="up"> 
                                 <div className='headercontent__header__content'>
-                                    <h3 className="text--subtitle text--secondary">Contactez-nous
+                                    <h3 className="text--subtitle text--primary">Contactez-nous
                                     </h3>
                                 </div>  
                                 <div className="headercontent__content">
-                                    <p className="text--lead text-uppercase text--secondary">
+                                    <p className="text--lead text-uppercase text--primary">
                                     Entrez en contact et commencez à profiter de nos délices mexicains
                                     </p>    
                                 </div>
-                                <a className="btn btn--primary" target="__blank" href="https://wa.me/14374403777/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20comida%20mexiana">Commandez maintenant</a>
-                                <img src={imgmexico} alt="mexican-food" className='contact__img--logomegavida' />
-                                </Fade>
+                                <div className="headercontent__content mb-4">
+                                    <a className="btn btn--whats" target="__blank" href="https://wa.me/14374403777/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20comida%20mexiana">Commandez maintenant</a>
+                                </div>
+                                <div className='headercontent__content'>
+                                    <a className="btn btn--face" target="__blank" href="https://wa.me/14374403777/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20comida%20mexiana">Visitez notre Facebook</a>
+                                </div>
+                                </Fade> 
                             </div>
                         </div>
                     </Col>
