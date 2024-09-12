@@ -135,14 +135,14 @@ const MenuFood = () => {
                                     text = "Salade de pommes, riz au lait, gelée mosaïque, champurrado."
                                 />
                             </li>
-                            <li className="menufood__item menufood__item--extra">
+                            <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Proteínas"
                                     subtitle = "México"
                                     text = "Poulet, bœuf, grillé, chorizo (porc), campechano, cochito (porc), barbacoa (bœuf), champignons."
                                 />
                             </li>
-                            <li className="menufood__item menufood__item--extra">
+                            <li className="menufood__item">
                                 <ItemMenu 
                                     title = "Extras"
                                     subtitle = "México"
