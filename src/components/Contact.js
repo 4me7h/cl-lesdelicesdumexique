@@ -26,7 +26,7 @@ const Contact = () => {
                                     <a className="btn btn--whats" target="__blank" href="https://wa.me/14374403777/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20comida%20mexiana">Commandez maintenant</a>
                                 </div>
                                 <div className='headercontent__content'>
-                                    <a className="btn btn--face" target="__blank" href="https://wa.me/14374403777/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20comida%20mexiana">Visitez notre Facebook</a>
+                                    <a className="btn btn--face" target="__blank" href="https://www.facebook.com/profile.php?id=61565309242005">Visitez notre Facebook</a>
                                 </div>
                                 </Fade> 
                             </div>
