@@ -14,15 +14,15 @@ const Contact = () => {
                             <div className="headercontent__header">
                                 <Fade cascade triggerOnce direction="up"> 
                                 <div className='headercontent__header__content'>
-                                    <h3 className="text--subtitle text--primary">Contactez-nous
+                                    <h3 className="text--subtitle text--primary fst-italic">Contactez-nous
                                     </h3>
                                 </div>  
-                                <div className="headercontent__content">
+                                <div className="headercontent__content mb-4">
                                     <p className="text--lead text-uppercase text--primary">
                                     Entrez en contact et commencez à profiter de nos délices mexicains
                                     </p>    
                                 </div>
-                                <div className="headercontent__content mb-4">
+                                <div className="headercontent__content mb-3">
                                     <a className="btn btn--whats" target="__blank" href="https://wa.me/14374403777/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20comida%20mexiana">Commandez maintenant</a>
                                 </div>
                                 <div className='headercontent__content'>
