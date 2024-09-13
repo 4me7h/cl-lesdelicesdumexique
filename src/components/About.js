@@ -14,10 +14,6 @@ const imagePaths = [
   require('../images/img-24.jpg'),
   require('../images/img-15.jpg'),
   require('../images/img-27.jpg'),
-  require('../images/img-10.jpg'),
-  require('../images/img-25.jpg'),
-  require('../images/img-10.jpg'),
-  require('../images/img-38.jpg'),
 ];
 
 const About = () => {
