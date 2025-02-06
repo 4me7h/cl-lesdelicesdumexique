@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import Gridimg from './Gridimg';
 import { Fade } from 'react-awesome-reveal';
 
+import { useTranslation } from 'react-i18next';
+
 const imagePaths = [  
   require('../images/img-02.jpg'),
   require('../images/img-01.jpg'),
@@ -18,6 +20,8 @@ const imagePaths = [
 
 const About = () => {
 
+  const { t, i18n } = useTranslation();
+   
   return (
     <section className="about">
       <div className="about__header">
@@ -28,7 +32,10 @@ const About = () => {
                 <div className="about__header__container">
                   <div className="about__header__container__column">
                     <div className='about__header__content'>
-                      <h3 className="text--subtitle text-center text-uppercase text--ff-s"><em>À propos des délices du Mexique</em></h3>
+                      <h3 className="text--subtitle text-center text-uppercase text--ff-s">
+                        {t('aboutTitle')}  
+                        <em>À propos des délices du Mexique</em>
+                      </h3>
                     </div>  
                     <div className="about__header__content">
                       <p className='text--body text--white text-center'>

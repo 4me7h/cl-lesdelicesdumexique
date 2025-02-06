@@ -37,6 +37,22 @@ const MenuFood = () => {
                         <ul className='menufood__list'>
                             <li className="menufood__item">
                                 <ItemMenu 
+                                    imagemenu = {tacos}
+                                    title = "Tacos"
+                                    subtitle = "México, Prehispánico"
+                                    text = "Tortilla de maïs souple avec la protéine de votre choix, oignons et coriandre"
+                                />
+                            </li>
+                            <li className="menufood__item">
+                                <ItemMenu 
+                                    imagemenu = {quesadillas}
+                                    title = "Quesadilla"
+                                    subtitle = "Veracruz, México"
+                                    text = "Tortilla de farine souple avec fromage et protéine au choix, oignons et coriandre."
+                                />
+                            </li>
+                            <li className="menufood__item">
+                                <ItemMenu 
                                     imagemenu = {nachos}
                                     title = "Nachos"
                                     subtitle = "Coahuila, México"
@@ -101,22 +117,6 @@ const MenuFood = () => {
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
-                                    imagemenu = {tacos}
-                                    title = "Tacos"
-                                    subtitle = "México, Prehispánico"
-                                    text = "Tortilla de maïs souple avec la protéine de votre choix, oignons et coriandre"
-                                />
-                            </li>
-                            <li className="menufood__item">
-                                <ItemMenu 
-                                    imagemenu = {quesadillas}
-                                    title = "Quesadilla"
-                                    subtitle = "Veracruz, México"
-                                    text = "Tortilla de farine souple avec fromage et protéine au choix, oignons et coriandre."
-                                />
-                            </li>
-                            <li className="menufood__item">
-                                <ItemMenu 
                                     imagemenu = {empanadas}
                                     title = "Empanadas"
                                     subtitle = "Chiapas, México"
@@ -134,7 +134,7 @@ const MenuFood = () => {
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {grilladas}
-                                    title = "Grilladas"
+                                    title = "Grillades"
                                     subtitle = "Salaberry de Villeyfield"
                                     text = "Grillées et assaisonnées avec les épices maison."
                                 />
@@ -142,7 +142,7 @@ const MenuFood = () => {
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {grilladasca}
-                                    title = "Grilladas de la casa"
+                                    title = "Grillades de la casa"
                                     subtitle = "México, Canadá"
                                     text = "Assaisonné à la manière mexicaine."
                                 />

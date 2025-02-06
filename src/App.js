@@ -11,6 +11,7 @@ import MenuFood from './components/MenuFood';
 
 import { Element } from 'react-scroll';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import './i18n';
 
 function App() {
   return (

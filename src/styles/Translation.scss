@@ -1,0 +1,12 @@
+.translation {
+    &__buttons {
+        @include reset-list;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        &__item {
+            display: inline-block;
+            padding: 0.5rem 2rem; 
+        }
+    }
+}

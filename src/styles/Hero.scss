@@ -28,11 +28,11 @@
             position: relative;   
             text-align: left;
             padding: 4rem 0 6rem;
-            max-width: 750px;
+            max-width: 800px;
             margin: 0 auto;
             @include media('md') {
                 padding: 6rem 0 8rem;
-                max-width: 750px;
+                max-width: 800px;
                 margin: 0;
             }
         }
