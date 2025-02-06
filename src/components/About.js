@@ -33,8 +33,7 @@ const About = () => {
                   <div className="about__header__container__column">
                     <div className='about__header__content'>
                       <h3 className="text--subtitle text-center text-uppercase text--ff-s">
-                        {t('aboutTitle')}  
-                        <em>À propos des délices du Mexique</em>
+                        <em>{t('about-title')}</em>
                       </h3>
                     </div>  
                     <div className="about__header__content">
