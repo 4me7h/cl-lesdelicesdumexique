@@ -25,15 +25,15 @@ const Hero = () => {
                     <Col>
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
-                                <ul className="translation__buttons">
-                                    <li className="translation__buttons__item">
-                                        <button className="translation__buttons" onClick={() => changeLanguage('fr')}>Français</button>
+                                <ul className="translation__list">
+                                    <li className="translation__item">
+                                        <button className="translation__button translation__button--fr" onClick={() => changeLanguage('fr')}>Français</button>
                                     </li>
-                                    <li className="translation__buttons__item">
-                                        <button className="translation__buttons" onClick={() => changeLanguage('es')}>Español</button>
+                                    <li className="translation__item">
+                                        <button className="translation__button translation__button--es" onClick={() => changeLanguage('es')}>Español</button>
                                     </li>
-                                    <li className="translation__buttons__item">
-                                        <button className="translation__buttons" onClick={() => changeLanguage('en')}>English</button>
+                                    <li className="translation__item">
+                                        <button className="translation__button translation__button--en" onClick={() => changeLanguage('en')}>English</button>
                                     </li>
                                 </ul> 
                                 <Zoom triggerOnce cascade>

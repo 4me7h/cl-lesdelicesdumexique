@@ -1,12 +1,49 @@
 .translation {
-    &__buttons {
+    &__list {
         @include reset-list;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         display: flex;
         justify-content: space-between;
-        &__item {
-            display: inline-block;
-            padding: 0.5rem 2rem; 
+        max-width: 400px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__button {
+        padding: 0.5rem 1rem;
+        border: solid 1px transparent;
+        border-radius: 0.5rem;
+        color: $color-white;
+        letter-spacing: 0.1rem;
+        font-size: $fs-mn;
+        font-weight: 600;
+        text-transform: uppercase;
+        
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &--fr {
+            background-color: $color-primary;
+            &:hover {
+                background-color: darken($color-primary, 10%);
+            }
+        }
+
+        &--es {
+            background-color: $color-secondary;
+            &:hover {
+                background-color: darken($color-secondary, 10%);
+            }
+        }
+
+        &--en {
+            background-color: $color-tertiary;
+            &:hover {
+                background-color: darken($color-tertiary, 10%);
+            }
         }
     }
+    
+    
 }
