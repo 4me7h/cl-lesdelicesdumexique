@@ -38,12 +38,11 @@ const About = () => {
                     </div>  
                     <div className="about__header__content">
                       <p className='text--body text--white text-center'>
-                        Notre histoire est enracinée dans les traditions familiales de Chiapas, au Mexique. Depuis des générations, nous perpétuons l'art de la cuisine mexicaine authentique, en utilisant des recettes transmises de mère en enfants. Aujourd'hui, nous avons apporté ces saveurs uniques à Salaberry, pour que vous puissiez découvrir la richesse et la chaleur de notre culture à travers chaque plat que nous servons.
+                        {t('about-content')}
                       </p>
                     </div>
                   </div>
                 </div>
-                
               </Fade>
             </Col>
           </Row>
@@ -58,7 +57,7 @@ const About = () => {
             <div className="about__content">
               <Fade triggerOnce>
               <p className='text--body'>
-                Enracinée dans les traditions familiales de Chiapas, au Mexique, notre cuisine apporte les saveurs authentiques du Mexique directement à Salaberry. Chaque plat est un hommage à nos recettes ancestrales, transmises de génération en génération.
+                {t('about-content-02')}
               </p>
               </Fade>
             </div>
