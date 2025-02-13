@@ -5,6 +5,7 @@ i18n.use(initReactI18next).init({
     resources: {
         fr: {
             translation: {
+              "nav-title": "Les Délices du Mexique",
               "nav-home": "Accueil",
               "nav-about": "Notre histoire",
               "nav-menu": "Menu",
@@ -44,6 +45,7 @@ i18n.use(initReactI18next).init({
         },
         es: {
             translation: {
+              "nav-title": "Nuestra Cocina",
               "nav-home": "Inicio",
               "nav-about": "Nuestra historia",
               "nav-menu": "Menú",
@@ -83,6 +85,7 @@ i18n.use(initReactI18next).init({
         },
         en: {
             translation: {
+              "nav-title": "Taste Mexico",
               "nav-home": "Home",
               "nav-about": "Our Story",
               "nav-menu": "Menu",

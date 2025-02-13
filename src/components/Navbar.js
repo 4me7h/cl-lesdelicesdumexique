@@ -21,7 +21,7 @@ const Navbar = () => {
                     <Col>
                         <div className="navBar__container">
                             <div className="navBar__col">
-                                <Link href="#" to="hero" smooth={true} duration={500} className="navBar__brand">Cuisine Mexicaine</Link>
+                                <Link href="#" to="hero" smooth={true} duration={500} className="navBar__brand">{t('nav-title')}</Link>
                             </div>
                             <div className="navBar__col">
                                 <button className="navBar__toggle" onClick={toggleNavbar}>
