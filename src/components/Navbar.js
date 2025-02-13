@@ -4,8 +4,10 @@ import Row from "react-bootstrap/esm/Row"
 
 import { useState } from "react";
 import {Link} from 'react-scroll';
+import {useTranslation} from 'react-i18next';
 
 const Navbar = () => {
+    const { t } = useTranslation();
 
     const [visible, setVisible] = useState(true);
     const toggleNavbar = () => {
@@ -30,10 +32,10 @@ const Navbar = () => {
                             </div>
                             <div className="navBar__col">
                                 <ul className={`navBar__nav ${visible ? 'visible' : ''}`}>
-                                    <li className="navBar__nav__item"><Link href="#" to="hero" smooth={true} duration={500}  activeClassName="active">Accueil</Link></li>
-                                    <li className="navBar__nav__item"><Link href="#" to="about" smooth={true} duration={500}>À propos</Link></li>
-                                    <li className="navBar__nav__item"><Link href="#" to="menufood" smooth={true} duration={500}>Menu</Link></li>
-                                    <li className="navBar__nav__item"><Link href="#" to="contact" smooth={true} duration={500}>Contact</Link></li>
+                                    <li className="navBar__nav__item"><Link href="#" to="hero" smooth={true} duration={500}  activeClassName="active">{t('nav-home')}</Link></li>
+                                    <li className="navBar__nav__item"><Link href="#" to="about" smooth={true} duration={500}>{t('nav-about')}</Link></li>
+                                    <li className="navBar__nav__item"><Link href="#" to="menufood" smooth={true} duration={500}>{t('nav-menu')}</Link></li>
+                                    <li className="navBar__nav__item"><Link href="#" to="contact" smooth={true} duration={500}>{t('nav-contact')}</Link></li>
                                 </ul>
                             </div>
                         </div>
