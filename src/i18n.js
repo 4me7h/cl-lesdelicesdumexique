@@ -22,6 +22,8 @@ i18n.use(initReactI18next).init({
               "about-content": "Notre histoire s'enracine dans les traditions familiales du Chiapas, au Mexique. Depuis des générations, nous perpétuons l'art de la cuisine mexicaine authentique, en utilisant des recettes transmises de mère en fille. Aujourd'hui, nous avons apporté ces saveurs uniques à Salaberry, pour que vous puissiez découvrir la richesse et la chaleur de notre culture à travers chaque plat que nous servons.",
               "about-content-02": "Enracinée dans les traditions familiales du Chiapas, au Mexique, notre cuisine apporte les saveurs authentiques du Mexique directement à Salaberry. Chaque plat est un hommage à nos recettes ancestrales, transmises de génération en génération.",
 
+              "menu-title": "Notre Menu",
+
               "menu-title-01": "tacos",
               "menu-subtitle-01": "México, Préhispanique",
               "menu-text-01": "Tortilla de maïs souple garnie de la protéine de votre choix, oignons et coriandre fraîche.",
@@ -40,7 +42,64 @@ i18n.use(initReactI18next).init({
 
               "menu-title-05": "Enchiladas",
               "menu-subtitle-05": "Náhuatl, Mexique précolombien",
-              "menu-text-05": "Tortillas garnies de fromage, nappées de sauce verte ou rouge, accompagnées d'oignons rouges, de poitrine de poulet, de fromage fondu et de crème fraîche."
+              "menu-text-05": "Tortillas garnies de fromage, nappées de sauce verte ou rouge, accompagnées d'oignons rouges, de poitrine de poulet, de fromage fondu et de crème fraîche.",
+
+              "menu-title-06": "Burritos",
+              "menu-subtitle-06": "Chihuahua, Mexique",
+              "menu-text-06": "Tortilla de farine garnie de haricots, de fromage fondu, de pico de gallo et d'oignons. Choix de protéine en option.",
+
+              "menu-title-07": "Tostadas",
+              "menu-subtitle-07": "Oaxaca, Mexique",
+              "menu-text-07": "Tortilla de maïs frite croustillante, garnie de haricots refrits, de poulet grillé, de laitue croquante, de fromage frais et de crème.",
+
+              "menu-title-08": "Poutine",
+              "menu-subtitle-08": "Québec, Canada",
+              "menu-text-08": "Frites croustillantes recouvertes de sauce gravy et de fromage en grains frais.",
+
+              "menu-title-09": "Frites",
+              "menu-subtitle-09": "À la mexicaine (Chiapas)",
+              "menu-text-09": "Frites croustillantes accompagnées de notre délicieuse sauce maison, inspirée des saveurs du Mexique.",
+
+              "menu-title-10": "Ailes de poulet",
+              "menu-subtitle-10": "New York",
+              "menu-text-10": "Ailes de poulet croustillantes, disponibles en trois saveurs explosives : BBQ classique, Buffalo épicée et Mangue Habanero sucrée-piquante.",
+
+              "menu-title-11": "Empanadas",
+              "menu-subtitle-11": "Chiapas, Mexique",
+              "menu-text-11": "Tortilla de maïs nixtamalisée garnie de fromage, de poulet ou de fromage aux champignons, nappée de sauce rouge à base de tomate, accompagnée de chou, de carottes et de piments marinés, le tout garni de crème et de fromage.",
+
+              "menu-title-12": "Tacos dorados",
+              "menu-subtitle-12": "Sinaloa, Mexique",
+              "menu-text-12": "Protéine enveloppée dans une tortilla de maïs, frite jusqu'à obtenir une texture croustillante, nappée de sauce rouge, accompagnée de chou, de carottes et de piments marinés, le tout garni de fromage et de crème.",
+
+              "menu-title-13": "Grillades",
+              "menu-subtitle-13": "Salaberry-de-Valleyfield",
+              "menu-text-13": "Grillades fraîchement préparées et assaisonnées avec nos épices maison exclusives.",
+
+              "menu-title-14": "Grillades de la maison",
+              "menu-subtitle-14": "Mexique, Canada",
+              "menu-text-14": "Assaisonnées avec des épices traditionnelles mexicaines, pour un goût authentique.",
+
+              "menu-title-15": "Sandwich",
+              "menu-subtitle-15": "Salaberry-de-Valleyfield",
+              "menu-text-15": "Pain blanc traditionnel garni de tomates juteuses, d'oignons croquants, d'une touche de moutarde et légèrement grillé pour plus de saveur.",
+
+              "menu-title-16": "Boneless",
+              "menu-subtitle-16": "New York",
+              "menu-text-16": "Petits morceaux de poitrine de poulet, sans os, panés et croustillants, à déguster nature ou nappés d'une délicieuse sauce de votre choix (Mangue Habanero, Buffalo, BBQ).",
+
+              "menu-title-17": "Desserts",
+              "menu-subtitle-17": "Mexique",
+              "menu-text-17": "Découvrez nos délicieux desserts mexicains : une salade de pommes rafraîchissante, un riz au lait onctueux, une gelée mosaïque colorée et un champurrado réconfortant.",
+
+              "menu-title-18": "Protéines",
+              "menu-subtitle-18": "Mexique / Canada",
+              "menu-text-18": "Découvrez nos délicieuses options de protéines : poulet tendre, bœuf grillé, chorizo épicé (porc), campechano savoureux, cochito fondant (porc), barbacoa parfumée (bœuf) et champignons gourmands.",
+
+              "menu-title-19": "Extras",
+              "menu-subtitle-19": "Mexique",
+              "menu-text-19": "Personnalisez votre plat avec nos extras : pico de gallo, guacamole, fromage, crème, protéine supplémentaire et option grillée."
+
             }
         },
         es: {
@@ -62,6 +121,8 @@ i18n.use(initReactI18next).init({
               "about-content": "Nuestra historia se nutre de las raíces profundas de las tradiciones familiares de Chiapas, México. Por generaciones, hemos guardado el arte de la auténtica cocina mexicana, con recetas que han viajado de madre a hija. Hoy, estos sabores únicos llegan a Salaberry, invitándote a descubrir la riqueza y el corazón de nuestra cultura en cada bocado.",
               "about-content-02": "Con raíces profundas en las tradiciones familiares de Chiapas, México, nuestra cocina lleva los sabores auténticos de México hasta Salaberry. Cada platillo es un viaje al pasado, un homenaje a recetas ancestrales que han viajado de generación en generación.",
 
+              "menu-title": "Nuestro Menu",
+
               "menu-title-01": "tacos",
               "menu-subtitle-01": "México, Prehispánico",
               "menu-text-01": "Tortilla de maíz suave rellena con la proteína de tu elección, cebolla y cilantro fresco. Acompañado de salsa verde y salsa roja.",
@@ -80,7 +141,67 @@ i18n.use(initReactI18next).init({
 
               "menu-title-05": "Enchiladas",
               "menu-subtitle-05": "Náhuatl, México precolombino",
-              "menu-text-05": "Tortillas rellenas de queso, bañadas en salsa verde o roja, y acompañadas de cebolla morada en aros, pechuga de pollo desmenuzada, queso fundido y crema ácida."
+              "menu-text-05": "Tortillas rellenas de queso, bañadas en salsa verde o roja, y acompañadas de cebolla morada en aros, pechuga de pollo desmenuzada, queso fundido y crema ácida.",
+
+              "menu-title-06": "Burritos",
+              "menu-subtitle-06": "Chihuahua, México",
+              "menu-text-06": "Tortilla de harina rellena de frijoles refritos, queso fundido, pico de gallo fresco y cebolla picada. Opción de agregar la proteína de tu preferencia.",
+
+              "menu-title-07": "Tostadas",
+              "menu-subtitle-07": "Oaxaca, México",
+              "menu-text-07": "Tortilla de maíz frita y dorada, cubierta de frijoles refritos, pollo asado desmenuzado, lechuga fresca, queso fresco desmoronado y crema ácida.",
+
+              "menu-title-08": "Poutine",
+              "menu-subtitle-08": "Québec, Canadá",
+              "menu-text-08": "Crujientes papas fritas cubiertas de salsa gravy caliente y queso fresco en grano que se derrite al contacto.",
+
+              "menu-title-09": "Papas fritas",
+              "menu-subtitle-09": "Estilo mexicano (Chiapas)",
+              "menu-text-09": "Papas fritas doradas y crujientes, servidas con nuestra deliciosa salsa casera.",
+
+              "menu-title-10": "Alitas",
+              "menu-subtitle-10": "Nueva York",
+              "menu-text-10": "Alitas de pollo con sabores BBQ, Buffalo y Mango Habanero.",
+
+              "menu-title-11": "Empanadas",
+              "menu-subtitle-11": "Chiapas, México",
+              "menu-text-11": "Tortilla de maíz nixtamalizada rellena de queso, pollo desmenuzado o queso con champiñones, bañada en una salsa roja de tomate casera, acompañada de repollo, zanahorias y chiles encurtidos, y decorada con crema ácida y queso fresco.",
+
+              "menu-title-12": "Tacos dorados",
+              "menu-subtitle-12": "Sinaloa, México",
+              "menu-text-12": "Proteína envuelta en una tortilla de maíz, frita hasta quedar dorada y crujiente, bañada en salsa roja casera, acompañada de repollo, zanahorias y chiles encurtidos, y decorada con queso fresco y crema ácida.",
+
+              "menu-title-13": "Carnes a la parrilla",
+              "menu-subtitle-13": "Salaberry-de-Valleyfield",
+              "menu-text-13": "Carnes asadas a la parrilla, sazonadas con una mezcla exclusiva de nuestras especias caseras.",
+
+              "menu-title-14": "Carnes a la parrilla de la casa",
+              "menu-subtitle-14": "México, Canadá",
+              "menu-text-14": "Carnes asadas a la parrilla, sazonadas con un toque especial al estilo mexicano.",
+
+              "menu-title-15": "Sandwich",
+              "menu-subtitle-15": "Salaberry-de-Valleyfield",
+              "menu-text-15": "Pan blanco clásico con tomate fresco, cebolla, mostaza y ligeramente tostado.",
+
+              "menu-title-16": "Boneless",
+              "menu-subtitle-16": "Nueva York",
+              "menu-text-16": "Pequeños trozos de pechuga de pollo, sin hueso, empanizados y crujientes, para disfrutar solos o bañados en una deliciosa salsa de tu elección (Mango Habanero, Buffalo, BBQ).",
+
+              "menu-title-17": "Postres",
+              "menu-subtitle-17": "México",
+              "menu-text-17": "Prueba nuestros deliciosos postres mexicanos: ensalada de manzanas refrescante, arroz con leche cremoso, gelatina de mosaico colorida y champurrado reconfortante.",
+
+              "menu-title-18": "Proteínas",
+              "menu-subtitle-18": "México / Canadá",
+              "menu-text-18": "Elige entre nuestras opciones de proteínas: pollo tierno, res asada, chorizo picante, campechano sabroso, cochito jugoso, barbacoa aromática y champiñones deliciosos.",
+
+              "menu-title-19": "Extras",
+              "menu-subtitle-19": "México",
+              "menu-text-19": "Personaliza tu platillo con nuestros extras: pico de gallo, guacamole, queso, crema, proteína adicional y opción a la parrilla."
+              
+              
+              
+    
             }
         },
         en: {
@@ -101,6 +222,8 @@ i18n.use(initReactI18next).init({
               "about-title": "Our Story",
               "about-content": "Our story is deeply connected to the family traditions of Chiapas, Mexico. For generations, we've kept alive the art of authentic Mexican cuisine, with recipes handed down from mother to daughter. Now, we bring these unique flavors to Salaberry, inviting you to experience the richness and soul of our culture in every dish.",
               "about-content-02": "Inspired by the family traditions of Chiapas, Mexico, our cuisine brings the true flavors of Mexico to Salaberry. Every dish celebrates our heritage, with recipes passed down through generations.",
+              
+              "menu-title": "Our Menu",
 
               "menu-title-01": "tacos",
               "menu-subtitle-01": "Mexico, Pre-Hispanic",
@@ -120,8 +243,63 @@ i18n.use(initReactI18next).init({
 
               "menu-title-05": "Enchiladas",
               "menu-subtitle-05": "Náhuatl, Pre-Columbian Mexico",
-              "menu-text-05": "Tortillas filled with cheese, smothered in your choice of green or red sauce, and topped with red onion rings, shredded chicken breast, gooey melted cheese, and sour cream."
-  
+              "menu-text-05": "Tortillas filled with cheese, smothered in your choice of green or red sauce, and topped with red onion rings, shredded chicken breast, gooey melted cheese, and sour cream.",
+
+              "menu-title-06": "Burritos",
+              "menu-subtitle-06": "Chihuahua, Mexico",
+              "menu-text-06": "Flour tortilla stuffed with refried beans, melted cheese, fresh pico de gallo, and diced onions. Add your choice of protein for an extra touch.",
+
+              "menu-title-07": "Tostadas",
+              "menu-subtitle-07": "Oaxaca, Mexico",
+              "menu-text-07": "Golden fried corn tortilla loaded with refried beans, shredded grilled chicken, crisp lettuce, crumbled fresh cheese, and a drizzle of cream.",
+
+              "menu-title-08": "Poutine",
+              "menu-subtitle-08": "Quebec, Canada",
+              "menu-text-08": "Golden crispy fries smothered in hot gravy sauce and topped with fresh, squeaky cheese curds.",
+
+              "menu-title-09": "French fries",
+              "menu-subtitle-09": "Mexican style (Chiapas)",
+              "menu-text-09": "Golden crispy fries paired with our signature homemade sauce.",
+
+              "menu-title-10": "Wings",
+              "menu-subtitle-10": "New York",
+              "menu-text-10": "Chicken wings with BBQ, Buffalo, and Mango Habanero flavors.",
+
+              "menu-title-11": "Empanadas",
+              "menu-subtitle-11": "Chiapas, Mexico",
+              "menu-text-11": "Nixtamalized corn tortilla stuffed with cheese, shredded chicken, or cheese and mushrooms, smothered in a homemade tomato-based red sauce, served with tangy pickled cabbage, carrots, and chili peppers, and finished with a drizzle of cream and a sprinkle of cheese.",
+
+              "menu-title-12": "Crispy tacos",
+              "menu-subtitle-12": "Sinaloa, Mexico",
+              "menu-text-12": "Protein wrapped in a corn tortilla, fried to golden perfection, smothered in a homemade red sauce, served with tangy pickled cabbage, carrots, and chili peppers, and finished with a sprinkle of cheese and a drizzle of cream.",
+
+              "menu-title-13": "Grilled meats",
+              "menu-subtitle-13": "Salaberry-de-Valleyfield",
+              "menu-text-13": "Perfectly grilled meats, seasoned with our signature blend of homemade spices.",
+
+              "menu-title-14": "House grilled meats",
+              "menu-subtitle-14": "Mexico, Canada",
+              "menu-text-14": "Grilled to perfection and seasoned with a bold Mexican-style twist.",
+
+              "menu-title-15": "Sandwich",
+              "menu-subtitle-15": "Salaberry-de-Valleyfield",
+              "menu-text-15": "Classic white bread with fresh tomatoes, onions, mustard, and lightly grilled.",
+
+              "menu-title-16": "Boneless",
+              "menu-subtitle-16": "New York",
+              "menu-text-16": "Bite-sized pieces of boneless chicken breast, breaded and crispy, served plain or smothered in a delicious sauce of your choice (Mango Habanero, Buffalo, BBQ).",
+
+              "menu-title-17": "Desserts",
+              "menu-subtitle-17": "Mexico",
+              "menu-text-17": "Indulge in our delicious Mexican desserts: a refreshing apple salad, creamy rice pudding, vibrant mosaic jelly, and cozy champurrado.",
+
+              "menu-title-18": "Proteins",
+              "menu-subtitle-18": "Mexico / Canada",
+              "menu-text-18": "Choose from our mouthwatering protein options: tender chicken, grilled beef, spicy chorizo, flavorful campechano, juicy cochito, aromatic barbacoa, and delightful mushrooms.",
+
+              "menu-title-19": "Extras",
+              "menu-subtitle-19": "Mexico",
+              "menu-text-19": "Customize your dish with our extras: pico de gallo, guacamole, cheese, cream, extra protein, and grilled option."
             }
         }
     },

@@ -36,7 +36,7 @@ const MenuFood = () => {
                     <Col>
                         <div className='menufood__header'>
                             <div className="menufood__header__content">
-                                <h2 className='text--subtitle text-center text-uppercase text--primary fst-italic menufood__header__title'>Notre menu</h2>
+                                <h2 className='text--subtitle text-center text-uppercase text--primary fst-italic menufood__header__title'>{t('menu-title')}</h2>
                             </div>
                         </div>
                         <ul className='menufood__list'>
@@ -83,113 +83,113 @@ const MenuFood = () => {
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {burritos}
-                                    title = "Burritos"
-                                    subtitle = "Chihuahua, México"
-                                    text = "Tortilla de farine, tartinée de haricots, avec du fromage, un peu de pico de gallo et des oignons. Option de protéine."
+                                    title = {t('menu-title-06')} // "Burritos"
+                                    subtitle = {t('menu-subtitle-06')}
+                                    text = {t('menu-text-06')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {tostadas}
-                                    title = "Tostadas"
-                                    subtitle = "Oaxaca, México"
-                                    text = "Tortilla frite avec des haricots tartinés, poulet grillé, laitue avec du fromage et de la crème."
+                                    title = {t('menu-title-07')} // "Tostadas"
+                                    subtitle = {t('menu-subtitle-07')}
+                                    text = {t('menu-text-07')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {papasfritas}
-                                    title = "Papas fritas"
-                                    subtitle = "Putin (Québec)"
-                                    text = "Frites nappées de sauce gravy et de fromage."
+                                    title = {t('menu-title-08')} // "Poutine"
+                                    subtitle = {t('menu-subtitle-08')}
+                                    text = {t('menu-text-08')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {papasfritasca}
-                                    title = "Papas fritas"
-                                    subtitle = "Estilo mexicano (Chiapas)"
-                                    text = "Frites avec la sauce maison."
+                                    title = {t('menu-title-09')} // "Poutine"
+                                    subtitle = {t('menu-subtitle-09')}
+                                    text = {t('menu-text-09')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {wings}
-                                    title = "Wings"
-                                    subtitle = "Nueva York"
-                                    text = "BBQ, Buffalo, Mangue Habanero"
+                                    title = {t('menu-title-10')} // "Wings"
+                                    subtitle = {t('menu-subtitle-10')}
+                                    text = {t('menu-text-10')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {empanadas}
-                                    title = "Empanadas"
-                                    subtitle = "Chiapas, México"
-                                    text = "Tortilla de maïs nixtamalisée farcie de fromage, poulet ou fromage avec champignons, nappée de sauce rouge à base de tomate avec chou, carottes et piments en pickles, glacée de crème et de fromage."
+                                    title = {t('menu-title-11')} // "Empanadas"
+                                    subtitle = {t('menu-subtitle-11')}
+                                    text = {t('menu-text-11')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {tacosdorados}
-                                    title = "Tacos dorados"
-                                    subtitle = "Sinaloa, México"
-                                    text = "Protéine enveloppée dans une tortilla, frite, nappée de sauce rouge, avec chou, carottes et piments en pickles, fromage et crème."
+                                    title = {t('menu-title-12')} // "tacos-dorados"
+                                    subtitle = {t('menu-subtitle-12')}
+                                    text = {t('menu-text-12')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {grilladas}
-                                    title = "Grillades"
-                                    subtitle = "Salaberry de Villeyfield"
-                                    text = "Grillées et assaisonnées avec les épices maison."
+                                    title = {t('menu-title-13')} // "grillades"
+                                    subtitle = {t('menu-subtitle-13')}
+                                    text = {t('menu-text-13')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {grilladasca}
-                                    title = "Grillades de la casa"
-                                    subtitle = "México, Canadá"
-                                    text = "Assaisonné à la manière mexicaine."
+                                    title = {t('menu-title-14')} // "grillades-casa"
+                                    subtitle = {t('menu-subtitle-14')}
+                                    text = {t('menu-text-14')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {sandwich}
-                                    title = "Sandwich"
-                                    subtitle = "Salaberry de Villeyfield"
-                                    text = "Pain blanc classique avec tomate, oignon, moutarde et grillé."
+                                    title = {t('menu-title-15')} // "sandwich"
+                                    subtitle = {t('menu-subtitle-15')}
+                                    text = {t('menu-text-15')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {boneless}
-                                    title = "Boneless"
-                                    subtitle = "New York"
-                                    text = "Petits morceaux de poitrine de poulet, sans os, panés et pouvant être assaisonnés ou nappés d'une délicieuse sauce de votre choix (Mangue Habanero, Buffalo, BBQ)."
+                                    title = {t('menu-title-16')} // "boneless"
+                                    subtitle = {t('menu-subtitle-16')}
+                                    text = {t('menu-text-16')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {postres}
-                                    title = "Postres"
-                                    subtitle = "México"
-                                    text = "Salade de pommes, riz au lait, gelée mosaïque, champurrado."
+                                    title = {t('menu-title-17')} // "postres"
+                                    subtitle = {t('menu-subtitle-17')}
+                                    text = {t('menu-text-17')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {proteinas}
-                                    title = "Proteínas"
-                                    subtitle = "México"
-                                    text = "Poulet, bœuf, grillé, chorizo (porc), campechano, cochito (porc), barbacoa (bœuf), champignons."
+                                    title = {t('menu-title-18')} // "proteinas"
+                                    subtitle = {t('menu-subtitle-18')}
+                                    text = {t('menu-text-18')}
                                 />
                             </li>
                             <li className="menufood__item">
                                 <ItemMenu 
                                     imagemenu = {extras}
-                                    title = "Extras"
-                                    subtitle = "México"
-                                    text = "Pico de gallo, Guacamole, Fromage, Crème, Protéine, Grillé."
+                                    title = {t('menu-title-19')} // "extras"
+                                    subtitle = {t('menu-subtitle-19')}
+                                    text = {t('menu-text-19')}
                                 />
                             </li>
                         </ul>
