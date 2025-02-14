@@ -98,7 +98,12 @@ i18n.use(initReactI18next).init({
 
               "menu-title-19": "Extras",
               "menu-subtitle-19": "Mexique",
-              "menu-text-19": "Personnalisez votre plat avec nos extras : pico de gallo, guacamole, fromage, crème, protéine supplémentaire et option grillée."
+              "menu-text-19": "Personnalisez votre plat avec nos extras : pico de gallo, guacamole, fromage, crème, protéine supplémentaire et option grillée.",
+
+              "contact-title": "Contactez-nous",
+              "contact-subtitle": "Pour plus d'informations ou pour réserver une table, contactez-nous via WhatsApp ou Facebook.",
+              "contact-btn-01": "WhatsApp",
+              "contact-btn-02": "Facebook"
 
             }
         },
@@ -197,11 +202,12 @@ i18n.use(initReactI18next).init({
 
               "menu-title-19": "Extras",
               "menu-subtitle-19": "México",
-              "menu-text-19": "Personaliza tu platillo con nuestros extras: pico de gallo, guacamole, queso, crema, proteína adicional y opción a la parrilla."
+              "menu-text-19": "Personaliza tu platillo con nuestros extras: pico de gallo, guacamole, queso, crema, proteína adicional y opción a la parrilla.",
               
-              
-              
-    
+              "contact-title": "Contáctanos",
+              "contact-subtitle": "Para más información o para reservar una mesa, contáctanos por WhatsApp o Facebook.",
+              "contact-btn-01": "WhatsApp",
+              "contact-btn-02": "Facebook"
             }
         },
         en: {
@@ -299,7 +305,12 @@ i18n.use(initReactI18next).init({
 
               "menu-title-19": "Extras",
               "menu-subtitle-19": "Mexico",
-              "menu-text-19": "Customize your dish with our extras: pico de gallo, guacamole, cheese, cream, extra protein, and grilled option."
+              "menu-text-19": "Customize your dish with our extras: pico de gallo, guacamole, cheese, cream, extra protein, and grilled option.",
+
+              "contact-title": "Contact Us",
+              "contact-subtitle": "For more information or to book a table, contact us via WhatsApp or Facebook.",
+              "contact-btn-01": "WhatsApp",
+              "contact-btn-02": "Facebook"
             }
         }
     },
